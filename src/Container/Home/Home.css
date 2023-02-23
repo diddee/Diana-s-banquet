@@ -1,0 +1,36 @@
+.Home{
+    width: 100vw;
+    height: 100vh;
+    background: url(../../Assets/Home.jpg), #4E2A2A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Home p{
+    position: absolute;
+    font-family: 'Script MT Bold', sans-serif;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    top: 55%;
+    left: 28%;
+}
+.Home a{
+    position: absolute;
+    text-align: center;
+    top: 93%;
+    left: 43%;
+    text-decoration: none;
+    border: 1px solid white;
+    color: #232951;
+    font-family: 'Poppins';
+    font-weight: bold;
+    background-color: white;
+    border-radius: 8px;
+    padding: 12px 35px;
+    cursor: pointer;
+}

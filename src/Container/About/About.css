@@ -1,0 +1,57 @@
+.About{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #232951;
+    padding: 1.5rem 0;
+    font-family: 'Poppins';
+
+}
+.About h1{
+    /* position: relative; */
+    text-align: center;
+    color: #B5883C;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 24px;
+    font-size: 39px;
+    font-weight: 700;
+
+}
+.Content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Content img{
+    width: 22%;
+    height: 70%;
+    border-radius: 10px;
+
+}
+.Content .Img1{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+.Content .Img2{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
+
+.Content .Paragraph{
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    width: 35%;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
