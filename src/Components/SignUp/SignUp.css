@@ -1,0 +1,163 @@
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(../../Assets/SignUp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 40vw;
+    height: 95%;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.Form img{
+    margin-top: -5%;
+    width: 17%;
+}
+
+.Form h4{
+    position: relative;
+    top: -4%;
+    left: -24%;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-top: -4%;
+
+}
+
+form input{
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    padding: 9px;
+    margin: 18px 0;
+}
+form .Name p, form .Email p, form .Password p, form .Password2 p{
+    position: absolute;
+    top: -3%;
+    left: 5%;
+    background-color: white;
+    padding: 0 7px;
+    z-index: 1;
+    font-size: 14px;
+
+}
+
+form .Email p{
+    top: 14%;
+}
+
+form .Password p{
+    top: 31%;
+}
+.Password h5{
+    margin-top: -2%;
+    font-weight: 400;
+}
+
+form .Password2 p{
+    top: 56%;
+}
+
+.Password2 .Check{
+    display: flex;
+    flex-direction: row;
+    margin-left: -45%;
+    /* width: 100vw; */
+}
+
+.Check input{
+    margin-top: 2px;
+}
+.Password2 .Check span{
+    font-size: small;
+    width: 100%;
+    margin-left: -30%;
+}
+form button{
+    position: relative;
+    width: 100%;
+    color: white;
+    background-color: #232951;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 10px 0;
+
+}
+
+.Login{
+    font-size: 14px;
+}
+
+.Login a{
+    color: #B5883C;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Button{
+    position: relative;
+    width: 100%;
+    top: 3%;
+}
+.Button a{
+    position: relative;
+    text-decoration: none;
+    background-color: #232951;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    /* text-align: center; */
+    /* padding: 6px 6em; */
+    /* margin: auto; */
+
+/* } */
+/* .Button p{
+    font-size: 14px;
+}
+.Button span{
+    color: #B5883C;
+} */
